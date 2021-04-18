@@ -61,6 +61,9 @@ namespace uEmuera
         {
             var ps = path.Split('/', '\\');
             var n = "";
+            #if UNITY_EDITOR_OSX || UNITY_STANDALONE_OSX
+            n = "/";
+            #endif
             for(int i = 0; i < ps.Length - 1; ++i)
             {
                 var p = ps[i];
