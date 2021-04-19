@@ -27,6 +27,7 @@ Emuera是Emulator of Eramaker的缩写，是Windows平台下文字游戏平台�
 2. 请在初次运行app时，选择允许“文件访问”的权限。
 
 3. 请把处理完毕的era脚本文件夹放置在sdcard下的emuera文件夹内。完整路径为storage/emulated/0/emuera, storage/emulated/1/emuera, storage/emulated/2/emuera
+4. When you use Mac Build, use path of "Library/Application Support/xerysherry/uEmuera".
 
 已知问题/需要改进项：
 -------------------
