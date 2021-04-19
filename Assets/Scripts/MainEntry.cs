@@ -12,6 +12,7 @@ public class MainEntry : MonoBehaviour
     {
         Application.targetFrameRate = 24;
         ResolutionHelper.Apply();
+        Screen.fullScreen = !Screen.fullScreen;
     }
 
     void Start()
